@@ -33,3 +33,54 @@ function makeMessage(username) {
 }
 
 makeMessage("Jacob");
+
+const grade = 90;
+
+if (grade >= 90) {
+    console.log('Perfectly')
+} else if (grade >= 80) {
+    console.log('Good')
+} else if (grade >= 70) {
+    console.log('Satisfactorily')
+} else {
+    console.log('Unsatisfactorily')
+}
+
+let type;
+const personage = 17;
+
+personage >= 18 ? type = 'adult' : type = 'child';
+
+console.log(type);
+
+const make = 'BYD';
+
+switch (make) {
+    case 'Audi':
+        console.log('Audi');
+        break;
+    case 'BMW':
+        console.log('BMW');
+        break;
+    case 'Mercedes':
+        console.log('Mercedes');
+        break;
+    default:
+        console.log('Unknown');
+        break;
+}
+
+let count = 0;
+
+while (count < 10) {
+    console.log(count);
+    count += 1;
+}
+
+let count_1 = 0;
+
+do {
+	console.log(`Count: ${count_1}`);
+	count_1 += 1;
+} while (count_1 < 5);
+
